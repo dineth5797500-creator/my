@@ -29,6 +29,14 @@ if answer3 == "7":
 else:
     print("Wrong! Correct answer is 7.\n")
 
+# Question 3
+answer3 = input("Q3: How many days are there in a week? ")
+if answer3 == "7":
+    print("Correct!\n")
+    score = score + 1
+else:
+    print("Wrong! Correct answer is 7.\n")
+
 print(name, ", your final score is:", score, "/ 3")
 
 if score == 3:
